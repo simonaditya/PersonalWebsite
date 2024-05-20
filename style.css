@@ -1,0 +1,85 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  #intro{
+    height: fit-content;
+  }
+
+#intro{
+    background-color: #e5e5f7;
+    opacity: 2;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+}
+.mypicture{
+    padding: 5%;
+}
+.lead{
+    color: #000066;
+}
+a:link{
+    text-decoration: none;
+}
+.body{
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    height: fit-content;
+}
+.skillbox{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.special{
+  text-align: center;
+}
+.box{
+  background-color: #f9f9fd;
+  height: 300px;
+  width: 250px;
+  padding-top: 20px;
+}
+.boxbody{
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  font-size: large;
+}
+@media (max-width: 1000px){
+  .skillbox{flex-direction: column;height: max-content;}
+}
+.bottom-container{
+  height: 150px;
+  text-align: center;
+  background-color: #e5e5f7;
+    opacity: 2;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+  padding-top: 50px;
+}
+.footer-link{
+  padding: 30px;
+}
+.copyright{
+  margin-top: 15px;
+}
